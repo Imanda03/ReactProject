@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  /* background-color: rgb(49, 96, 138); */
+}
+
+.allBorder{
+  border: 2px solid black;
+  height: 80vh;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.allList{
+  height: 10vh;
+  /* border: 2px solid tomato; */
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.image{
+  margin-left: 10%;
+  height: 10vh;
+  width: 30%;
+  /* border: 2px solid black; */
+}
+
+.img{
+  height: 10vh;
+  width: 50%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.info{
+  /* border: 2px solid black; */
+  heigth: 15vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.forName{
+  font-size: 22px;
+  font-weight: 700;
+  color: #03240a;
+  margin-top: 20px;
+}
+
+.forAge{
+  font-size: 22px;
+  font-weight: 700;
+  color: #03240a;
+}
+
+.btn{
+  background-color: #35344b;
+  color: white;
+  height: 35px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+
+  
